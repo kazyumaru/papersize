@@ -4,8 +4,8 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Kazyumaru\\": "src/kazyumaru/"
+        "psr-0": {
+            "Kazyumaru\\Papersize": "src/"
         }
     },
     "authors": [
