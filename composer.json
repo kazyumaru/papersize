@@ -1,0 +1,22 @@
+{
+    "name": "kazyumaru/papersize",
+    "type": "library",
+    "description": "Calculate sizes of standard paper in Japan.",
+    "homepage": "https://github.com/kazyumaru/papersize",
+    "keywords": ["papersize","conversion"],
+    "authors": [
+        {
+            "name": "kazyumaru",
+            "email": "kazyumarujp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "kazyumaru\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
