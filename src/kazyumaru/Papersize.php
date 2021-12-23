@@ -1,7 +1,7 @@
 <?php
-namespace kazyumaru;
+namespace Kazyumaru;
 mb_internal_encoding('UTF-8');
-class PaperSize{
+class Papersize{
     public function __construct(){
     }
     public function set($paper,$orientation="p",$unit="mm"):object{
