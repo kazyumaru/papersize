@@ -1,4 +1,4 @@
-# kazyumaru/papersize
+# Kazyumaru\Papersize
 主な用紙のサイズを出力するPHPスクリプトです。
 This PHP script returns the size of major paper scheet.
 
@@ -10,7 +10,7 @@ PHP >= 7.2
 include('papersize.php');
 
 用紙サイズのクラスは下記のように使います。
-$papersize = new kazyumaru\Papersize;
+$papersize = new Kazyumaru\Papersize;
 
 用紙サイズなどを下記のように設定します。
 $paperinfo = $papersize->set((string)$size,(string)$orientation,(string)$unit);
