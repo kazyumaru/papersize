@@ -1,13 +1,20 @@
 # Kazyumaru\Papersize
 主な用紙のサイズを出力するPHPスクリプトです。
+日本で使用されている用紙をだいたいカバーしました。
 This PHP script returns the size of major paper scheet.
 
 # Requirement
 PHP >= 7.2
+確認できた環境が上記ですが、特に複雑な処理は行なっていないので
+composerを使用しない手動での導入であればPHP5.6などでも動作すると
+思われます。
 
 # usage
 使いたいファイルの冒頭でincludeします。
 include('papersize.php');
+composerの場合は
+require('vendor/autoload.php');
+です。
 
 用紙サイズのクラスは下記のように使います。
 $papersize = new Kazyumaru\Papersize;
@@ -33,7 +40,7 @@ $unit 単位です。
   inch,pt,q,cm
 ただし、全てmmからの計算のため、若干の誤差のある値であることをご承知おきください。
 
-返り値の$paperinfo はObjectです。
+返り値を格納する$paperinfo はObjectです。
 横幅 (float/int)$paperinfo->width
 縦幅 (float/int)$paperinfo->height
 用紙サイズ (string)$paperinfo->size
@@ -42,6 +49,7 @@ $unit 単位です。
 
 # note
 I don't test environments under Windows.
+Windows上のApacheでは確認していませんが、動くと思います。
 
 # Author
 なーたん（Kazyumaru）
