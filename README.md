@@ -39,16 +39,23 @@ $orientation 紙の向きです。
 
 $unit 単位です。
 省略可です。省略時はmm（ミリメートル）です。
+
 次の単位に変換できます。
   inch,pt,q,cm
 ただし、全てmmからの計算のため、若干の誤差のある値であることをご承知おきください。
 
 返り値を格納する$paperinfo はObjectです。
+
 横幅 (float/int)$paperinfo->width
+
 縦幅 (float/int)$paperinfo->height
+
 用紙サイズ (string)$paperinfo->size
+
 単位 (string)$paperinfo->unit
+
 向き (string)$paperinfo->orientation
+
 
 # note
 I don't test environments under Windows.
