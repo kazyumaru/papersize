@@ -10,6 +10,9 @@ composerを使用しない手動での導入であればPHP5.6などでも動作
 思われます。
 
 # usage
+composerでインストールする場合は
+composer require kazyumaru/papersize
+
 使いたいファイルの冒頭でincludeします。
 include('papersize.php');
 composerの場合は
