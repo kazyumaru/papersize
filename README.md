@@ -62,8 +62,8 @@ I don't test environments under Windows.
 Windows上のApacheでは確認していませんが、動くと思います。
 
 # Author
-なーたん（Kazyumaru）
-Twitter @pancakemagic
+りこ（Kazyumaru）
+Twitter @developer_riko
 
 # License
 kazyumaru\PaperSize is under [MIT licence] (https://w.wiki/3DyM)
